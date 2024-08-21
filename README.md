@@ -1,3 +1,4 @@
+
 Endpoints
 Usuarios (/users)
 GET /users - Obtener todos los usuarios.
@@ -33,7 +34,8 @@ GET /groups - Obtener todos los grupos.
 GET /groups/:id - Obtener un grupo por ID.
 POST /groups - Crear un nuevo grupo.
 PUT /groups/:id - Actualizar un grupo.
-DELETE /groups/:id - Eliminar un grupo
+DELETE /groups/:id - Eliminar un grupo.
+
 
 
 

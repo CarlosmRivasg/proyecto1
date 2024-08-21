@@ -1,0 +1,6 @@
+
+type Mutation {
+  createPet(name: String!, type: String!, owner: String): Pet!
+  updatePet(id: ID!, name: String, type: String, owner: String): Pet
+  deletePet(id: ID!): Boolean!
+}

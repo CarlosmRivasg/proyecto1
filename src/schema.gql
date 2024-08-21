@@ -1,0 +1,168 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type PROFILES {
+  id: ID!
+  date_of_birth: String!
+  biography: String!
+  created_at: String!
+  updated_at: String!
+  user: USERS!
+}
+
+type COMMENTS {
+  id: ID!
+  content: String!
+  created_at: String!
+  updated_at: String!
+  post: POSTS!
+}
+
+type POSTS {
+  id: ID!
+  title: String!
+  content: String!
+  created_at: String!
+  updated_at: String!
+  user: USERS!
+  comments: [COMMENTS!]!
+}
+
+type GROUPS {
+  id: ID!
+  name: String!
+  description: String!
+  created_at: String!
+  updated_at: String!
+}
+
+type USERS_GROUPS {
+  id: ID!
+  user: USERS!
+  group: GROUPS!
+}
+
+type USERS {
+  id: ID!
+  firstname: String!
+  lastname: String!
+  email: String!
+  create_at: String!
+  updated_at: String!
+  profile: PROFILES
+  posts: [POSTS!]!
+  userGroups: [USERS_GROUPS!]!
+}
+
+type Query {
+  users: [USERS!]!
+  user(id: ID!): USERS!
+  profiles: [PROFILES!]!
+  profile(id: ID!): PROFILES!
+  posts: [POSTS!]!
+  post(id: ID!): POSTS!
+  groups: [GROUPS!]!
+  group(id: ID!): GROUPS!
+  userGroups: [USERS_GROUPS!]!
+  userGroup(id: ID!): USERS_GROUPS!
+  comments: [COMMENTS!]!
+  comment(id: ID!): COMMENTS!
+}
+
+type Mutation {
+  createUser(createUserInput: CreateUserInput!): USERS!
+  updateUser(id: ID!, updateUserInput: UpdateUserInput!): USERS!
+  removeUser(id: ID!): Boolean!
+  createProfile(createProfileInput: CreateProfileInput!): PROFILES!
+  updateProfile(id: ID!, updateProfileInput: UpdateProfileInput!): PROFILES!
+  removeProfile(id: ID!): Boolean!
+  createPost(createPostInput: CreatePostInput!): POSTS!
+  updatePost(id: ID!, updatePostInput: UpdatedPostInput!): POSTS!
+  removePost(id: ID!): Boolean!
+  createGroup(createGroupInput: CreateGroupInput!): GROUPS!
+  updateGroup(id: ID!, updateGroupInput: UpdatedGroupInput!): GROUPS!
+  removeGroup(id: ID!): Boolean!
+  createUserGroup(userId: ID!, groupId: ID!): USERS_GROUPS!
+  removeUserGroup(id: ID!): Boolean!
+  createComment(createCommentInput: CreateCommentInput!): COMMENTS!
+  updateComment(id: ID!, updateCommentInput: UpdatedCommentInput!): COMMENTS!
+  removeComment(id: ID!): Boolean!
+}
+
+input CreateUserInput {
+  firstname: String!
+  lastname: String!
+  email: String!
+  create_at: String!
+  updated_at: String!
+}
+
+input UpdateUserInput {
+  firstname: String
+  lastname: String
+  email: String
+  create_at: String
+  updated_at: String
+}
+
+input CreateProfileInput {
+  date_of_birth: String!
+  biography: String!
+  created_at: String!
+  updated_at: String!
+  userId: ID!
+}
+
+input UpdateProfileInput {
+  id: ID!
+  date_of_birth: String
+  biography: String
+  created_at: String
+  updated_at: String
+  userId: ID
+}
+
+input CreatePostInput {
+  title: String!
+  content: String!
+  created_at: String!
+  updated_at: String!
+  userId: ID!
+}
+
+input UpdatedPostInput {
+  title: String!
+  content: String!
+  created_at: String!
+  updated_at: String!
+  userId: ID!
+}
+
+input CreateGroupInput {
+  name: String!
+  description: String!
+  created_at: String!
+  updated_at: String!
+}
+
+input UpdatedGroupInput {
+  name: String!
+  description: String!
+  created_at: String!
+  updated_at: String!
+}
+
+input CreateCommentInput {
+  content: String!
+  created_at: String!
+  updated_at: String!
+  postId: ID!
+}
+
+input UpdatedCommentInput {
+  content: String!
+  created_at: String!
+  updated_at: String!
+  postId: ID!
+}

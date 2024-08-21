@@ -23,7 +23,7 @@
 <p>POST /posts - Crear una nueva publicación.</p>
 <p>PUT /posts/:id - Actualizar una publicación.</p>
 <p>DELETE /posts/:id - Eliminar una publicación.</p>
-<p>Comentarios (/comments)</p>
+<h2>Comentarios (/comments)</h2>
 <p>GET /comments - Obtener todos los comentarios.</p>
 <p>GET /comments/:id - Obtener un comentario por ID.</p>
 <p>POST /comments - Crear un nuevo comentario.</p>

@@ -1,3 +1,59 @@
+guía de endpoint 
+USERS 
+findAll
+findOne
+createUser
+updateUser
+ removeUser
+
+groupsusers
+
+removeUserGroup
+createUserGroup
+ findOne
+ findAll
+
+profiles
+removeProfile
+ updateProfile
+ createProfile
+findOne
+findAll
+
+post
+
+
+findOne
+findAll
+ createPost
+updatePost
+removePost
+
+comments
+
+findOne
+findAll
+createComment
+ updateComment
+removeComment
+
+group
+findOne
+findAll
+ createGroup
+removeGroup
+updateGroup
+
+
+
+
+hacer instalación de dependencias.
+
+
+
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>

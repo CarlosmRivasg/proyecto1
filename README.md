@@ -1,23 +1,23 @@
 
-<p>Endpoints</p>
-<p>Usuarios (/users)</p>
+<h1>Endpoints</h1>
+<h2>Usuarios (/users)</h2>
 <p>GET /users - Obtener todos los usuarios.</p>
 <p>GET /users/:id - Obtener un usuario por ID.</p>
 <p>POST /users - Crear un nuevo usuario.</p>
 <p>PUT /users/:id - Actualizar un usuario.</p>
 <p>DELETE /users/:id - Eliminar un usuario.</p>
-<p>Grupos de Usuarios (/userGroups)</p>
+<h2>Grupos de Usuarios (/userGroups)</h2>
 <p>GET /userGroups - Obtener todos los grupos de usuarios.</p>
 <p>GET /userGroups/:id - Obtener un grupo de usuarios por ID.</p>
 <p>POST /userGroups - Crear un nuevo grupo de usuarios.</p>
 <p>DELETE /userGroups/:id - Eliminar un grupo de usuarios.</p>
-<p>Perfiles (/profiles)</p>
+<h2>Perfiles (/profiles)</h2>
 <p>GET /profiles - Obtener todos los perfiles.</p>
 <p>GET /profiles/:id - Obtener un perfil por ID.</p>
 <p>POST /profiles - Crear un nuevo perfil.</p>
 <p>PUT /profiles/:id - Actualizar un perfil.</p>
 <p>DELETE /profiles/:id - Eliminar un perfil.</p>
-<p>Publicaciones (/posts)</p>
+<h2>Publicaciones (/posts)</h2>
 <p>GET /posts - Obtener todas las publicaciones.</p>
 <p>GET /posts/:id - Obtener una publicación por ID.</p>
 <p>POST /posts - Crear una nueva publicación.</p>
@@ -29,7 +29,7 @@
 <p>POST /comments - Crear un nuevo comentario.</p>
 <p>PUT /comments/:id - Actualizar un comentario.</p>
 <p>DELETE /comments/:id - Eliminar un comentario.</p>
-<p>Grupos (/groups)</p>
+<h2>Grupos (/groups)</h2>
 <p>GET /groups - Obtener todos los grupos.</p>
 <p>GET /groups/:id - Obtener un grupo por ID.</p>
 <p>POST /groups - Crear un nuevo grupo.</p>

@@ -1,5 +1,5 @@
 
-Endpoints
+<p>Endpoints</p>
 Usuarios (/users)
 GET /users - Obtener todos los usuarios.
 GET /users/:id - Obtener un usuario por ID.

@@ -1,9 +1,9 @@
 
 <p>Endpoints</p>
-Usuarios (/users)
-GET /users - Obtener todos los usuarios.
-GET /users/:id - Obtener un usuario por ID.
-POST /users - Crear un nuevo usuario.
+<p>Usuarios (/users)</p>
+<p>GET /users - Obtener todos los usuarios.</p>
+<p>GET /users/:id - Obtener un usuario por ID.</p>
+<p>POST /users - Crear un nuevo usuario.</p>
 PUT /users/:id - Actualizar un usuario.
 DELETE /users/:id - Eliminar un usuario.
 Grupos de Usuarios (/userGroups)

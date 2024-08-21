@@ -4,37 +4,37 @@
 <p>GET /users - Obtener todos los usuarios.</p>
 <p>GET /users/:id - Obtener un usuario por ID.</p>
 <p>POST /users - Crear un nuevo usuario.</p>
-PUT /users/:id - Actualizar un usuario.
-DELETE /users/:id - Eliminar un usuario.
-Grupos de Usuarios (/userGroups)
-GET /userGroups - Obtener todos los grupos de usuarios.
-GET /userGroups/:id - Obtener un grupo de usuarios por ID.
-POST /userGroups - Crear un nuevo grupo de usuarios.
-DELETE /userGroups/:id - Eliminar un grupo de usuarios.
-Perfiles (/profiles)
-GET /profiles - Obtener todos los perfiles.
-GET /profiles/:id - Obtener un perfil por ID.
-POST /profiles - Crear un nuevo perfil.
-PUT /profiles/:id - Actualizar un perfil.
-DELETE /profiles/:id - Eliminar un perfil.
-Publicaciones (/posts)
-GET /posts - Obtener todas las publicaciones.
-GET /posts/:id - Obtener una publicación por ID.
-POST /posts - Crear una nueva publicación.
-PUT /posts/:id - Actualizar una publicación.
-DELETE /posts/:id - Eliminar una publicación.
-Comentarios (/comments)
-GET /comments - Obtener todos los comentarios.
-GET /comments/:id - Obtener un comentario por ID.
-POST /comments - Crear un nuevo comentario.
-PUT /comments/:id - Actualizar un comentario.
-DELETE /comments/:id - Eliminar un comentario.
-Grupos (/groups)
-GET /groups - Obtener todos los grupos.
-GET /groups/:id - Obtener un grupo por ID.
-POST /groups - Crear un nuevo grupo.
-PUT /groups/:id - Actualizar un grupo.
-DELETE /groups/:id - Eliminar un grupo.
+<p>PUT /users/:id - Actualizar un usuario.</p>
+<p>DELETE /users/:id - Eliminar un usuario.</p>
+<p>Grupos de Usuarios (/userGroups)</p>
+<p>GET /userGroups - Obtener todos los grupos de usuarios.</p>
+<p>GET /userGroups/:id - Obtener un grupo de usuarios por ID.</p>
+<p>POST /userGroups - Crear un nuevo grupo de usuarios.</p>
+<p>DELETE /userGroups/:id - Eliminar un grupo de usuarios.</p>
+<p>Perfiles (/profiles)</p>
+<p>GET /profiles - Obtener todos los perfiles.</p>
+<p>GET /profiles/:id - Obtener un perfil por ID.</p>
+<p>POST /profiles - Crear un nuevo perfil.</p>
+<p>PUT /profiles/:id - Actualizar un perfil.</p>
+<p>DELETE /profiles/:id - Eliminar un perfil.</p>
+<p>Publicaciones (/posts)</p>
+<p>GET /posts - Obtener todas las publicaciones.</p>
+<p>GET /posts/:id - Obtener una publicación por ID.</p>
+<p>POST /posts - Crear una nueva publicación.</p>
+<p>PUT /posts/:id - Actualizar una publicación.</p>
+<p>DELETE /posts/:id - Eliminar una publicación.</p>
+<p>Comentarios (/comments)</p>
+<p>GET /comments - Obtener todos los comentarios.</p>
+<p>GET /comments/:id - Obtener un comentario por ID.</p>
+<p>POST /comments - Crear un nuevo comentario.</p>
+<p>PUT /comments/:id - Actualizar un comentario.</p>
+<p>DELETE /comments/:id - Eliminar un comentario.</p>
+<p>Grupos (/groups)</p>
+<p>GET /groups - Obtener todos los grupos.</p>
+<p>GET /groups/:id - Obtener un grupo por ID.</p>
+<p>POST /groups - Crear un nuevo grupo.</p>
+<p>PUT /groups/:id - Actualizar un grupo.</p>
+<p>DELETE /groups/:id - Eliminar un grupo.</p>
 
 
 

@@ -1,53 +1,39 @@
-guía de endpoint 
-USERS 
-findAll
-findOne
-createUser
-updateUser
- removeUser
-
-groupsusers
-
-removeUserGroup
-createUserGroup
- findOne
- findAll
-
-profiles
-removeProfile
- updateProfile
- createProfile
-findOne
-findAll
-
-post
-
-
-findOne
-findAll
- createPost
-updatePost
-removePost
-
-comments
-
-findOne
-findAll
-createComment
- updateComment
-removeComment
-
-group
-findOne
-findAll
- createGroup
-removeGroup
-updateGroup
-
-
-
-
-hacer instalación de dependencias.
+Endpoints
+Usuarios (/users)
+GET /users - Obtener todos los usuarios.
+GET /users/:id - Obtener un usuario por ID.
+POST /users - Crear un nuevo usuario.
+PUT /users/:id - Actualizar un usuario.
+DELETE /users/:id - Eliminar un usuario.
+Grupos de Usuarios (/userGroups)
+GET /userGroups - Obtener todos los grupos de usuarios.
+GET /userGroups/:id - Obtener un grupo de usuarios por ID.
+POST /userGroups - Crear un nuevo grupo de usuarios.
+DELETE /userGroups/:id - Eliminar un grupo de usuarios.
+Perfiles (/profiles)
+GET /profiles - Obtener todos los perfiles.
+GET /profiles/:id - Obtener un perfil por ID.
+POST /profiles - Crear un nuevo perfil.
+PUT /profiles/:id - Actualizar un perfil.
+DELETE /profiles/:id - Eliminar un perfil.
+Publicaciones (/posts)
+GET /posts - Obtener todas las publicaciones.
+GET /posts/:id - Obtener una publicación por ID.
+POST /posts - Crear una nueva publicación.
+PUT /posts/:id - Actualizar una publicación.
+DELETE /posts/:id - Eliminar una publicación.
+Comentarios (/comments)
+GET /comments - Obtener todos los comentarios.
+GET /comments/:id - Obtener un comentario por ID.
+POST /comments - Crear un nuevo comentario.
+PUT /comments/:id - Actualizar un comentario.
+DELETE /comments/:id - Eliminar un comentario.
+Grupos (/groups)
+GET /groups - Obtener todos los grupos.
+GET /groups/:id - Obtener un grupo por ID.
+POST /groups - Crear un nuevo grupo.
+PUT /groups/:id - Actualizar un grupo.
+DELETE /groups/:id - Eliminar un grupo
 
 
 

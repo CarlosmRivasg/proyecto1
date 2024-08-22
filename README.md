@@ -1,46 +1,51 @@
 
 <h1>Endpoints</h1>
 <h2>Usuarios (/users)</h2>
-<p>GET /users - Obtener todos los usuarios.</p>
-<p>GET /users/:id - Obtener un usuario por ID.</p>
-<p>POST /users - Crear un nuevo usuario.</p>
-<p>PUT /users/:id - Actualizar un usuario.</p>
-<p>DELETE /users/:id - Eliminar un usuario.</p>
+<p>GET /findAll - Obtener todos los usuarios.</p>
+<p>GET /findOne/:id - Obtener un usuario por ID.</p>
+<p>POST /createUser - Crear un nuevo usuario.</p>
+<p>PUT / updateUser/:id - Actualizar un usuario.</p>
+<p>DELETE /removeUser/:id - Eliminar un usuario.</p>
+
 <h2>Grupos de Usuarios (/userGroups)</h2>
-<p>GET /userGroups - Obtener todos los grupos de usuarios.</p>
-<p>GET /userGroups/:id - Obtener un grupo de usuarios por ID.</p>
-<p>POST /userGroups - Crear un nuevo grupo de usuarios.</p>
-<p>DELETE /userGroups/:id - Eliminar un grupo de usuarios.</p>
+<p>GET /findAll - Obtener todos los grupos de usuarios.</p>
+<p>GET /findOne/:id - Obtener un grupo de usuarios por ID.</p>
+<p>POST /createUserGroup - Crear un nuevo grupo de usuarios.</p>
+<p>DELETE /removeUserGroup/:id - Eliminar un grupo de usuarios.</p>
+
 <h2>Perfiles (/profiles)</h2>
-<p>GET /profiles - Obtener todos los perfiles.</p>
-<p>GET /profiles/:id - Obtener un perfil por ID.</p>
-<p>POST /profiles - Crear un nuevo perfil.</p>
-<p>PUT /profiles/:id - Actualizar un perfil.</p>
-<p>DELETE /profiles/:id - Eliminar un perfil.</p>
+<p>GET /findAll - Obtener todos los perfiles.</p>
+<p>GET /findOne/:id - Obtener un perfil por ID.</p>
+<p>POST /createProfile - Crear un nuevo perfil.</p>
+<p>PUT /updateProfile/:id - Actualizar un perfil.</p>
+<p>DELETE /removeProfile/:id - Eliminar un perfil.</p>
+
 <h2>Publicaciones (/posts)</h2>
-<p>GET /posts - Obtener todas las publicaciones.</p>
-<p>GET /posts/:id - Obtener una publicación por ID.</p>
-<p>POST /posts - Crear una nueva publicación.</p>
-<p>PUT /posts/:id - Actualizar una publicación.</p>
-<p>DELETE /posts/:id - Eliminar una publicación.</p>
+<p>GET /findAll - Obtener todas las publicaciones.</p>
+<p>GET /findOne/:id - Obtener una publicación por ID.</p>
+<p>POST /createPost - Crear una nueva publicación.</p>
+<p>PUT /updatePost/:id - Actualizar una publicación.</p>
+<p>DELETE /removePost/:id - Eliminar una publicación.</p>
+
 <h2>Comentarios (/comments)</h2>
-<p>GET /comments - Obtener todos los comentarios.</p>
-<p>GET /comments/:id - Obtener un comentario por ID.</p>
-<p>POST /comments - Crear un nuevo comentario.</p>
-<p>PUT /comments/:id - Actualizar un comentario.</p>
-<p>DELETE /comments/:id - Eliminar un comentario.</p>
+<p>GET /findAll - Obtener todos los comentarios.</p>
+<p>GET /findOne/:id - Obtener un comentario por ID.</p>
+<p>POST /createComment - Crear un nuevo comentario.</p>
+<p>PUT /updateComment/:id - Actualizar un comentario.</p>
+<p>DELETE / removeComment/:id - Eliminar un comentario.</p>
+
 <h2>Grupos (/groups)</h2>
-<p>GET /groups - Obtener todos los grupos.</p>
-<p>GET /groups/:id - Obtener un grupo por ID.</p>
-<p>POST /groups - Crear un nuevo grupo.</p>
-<p>PUT /groups/:id - Actualizar un grupo.</p>
-<p>DELETE /groups/:id - Eliminar un grupo.</p>
+<p>GET /findAll - Obtener todos los grupos.</p>
+<p>GET /findOne/:id - Obtener un grupo por ID.</p>
+<p>POST /createGroup - Crear un nuevo grupo.</p>
+<p>PUT /updateGroup/:id - Actualizar un grupo.</p>
+<p>DELETE /removeGroup/:id - Eliminar un grupo.</p>
 
 
 
 ![image](https://github.com/user-attachments/assets/7d326dcb-bea9-412d-bca6-43e22c9c2da8)
 
-
+<p> El create_at y updated_at los trate todos como string en vez de date, error mio, recomendacion tratarlos igual para evitar errores, no me atrevi a modificarlo </p>
 
 
 <p align="center">
